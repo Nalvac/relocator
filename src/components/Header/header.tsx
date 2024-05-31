@@ -9,13 +9,13 @@ export default function Header() {
 							<img  src={logo}/>
 						</div>
 						<div className={'flex justify-center items-center'}>
-							<NavLink to={'indicator'} className={`mr-5 header-link`} >
+							<NavLink to={'profile'} className={`mr-5 header-link`} >
 								<h4 className={"font-bold"}>Accueil</h4>
 							</NavLink>
-							<NavLink to={'admin'} className={`mr-5 header-link`} >
+							<NavLink to={'profile'} className={`mr-5 header-link`} >
 								<h4 className={"font-bold"}>Formulaire</h4>
 							</NavLink>
-							<NavLink to={'admin'} className={`mr-5 header-link`} >
+							<NavLink to={'profile'} className={`mr-5 header-link`} >
 								<h4 className={"font-bold"}>Scanner</h4>
 							</NavLink>
 						</div>

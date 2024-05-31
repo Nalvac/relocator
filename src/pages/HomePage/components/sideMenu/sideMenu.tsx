@@ -48,7 +48,7 @@ export default function SideMenu() {
 							</NavLink>
 
 							<NavLink
-									to={''}
+									to={'chat'}
 									className={({isActive}) =>
 											`flex items-center p-3 mb-4 ${isActive ? `${styles.itemSelected}` : `${styles.itemNoteSelected}`}`}
 							>
