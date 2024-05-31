@@ -1,0 +1,60 @@
+
+$secondary-color: #1DD3B0;
+.documentContainer {
+
+  h3 {
+    color: #3C1642;
+  }
+
+  p {
+    color: #707070;
+  }
+
+  .userInfo {
+    color: #3C1642;
+    margin-top: 2px;
+  }
+
+  .iconContainer {
+    margin-left: 10px;
+    display: flex;
+    padding: 5px;
+    border-radius: 4px;
+
+    background-color: #F1EFEF;
+
+    svg{
+      color: black;
+      padding: 2px;
+    }
+
+    .redSvg  {
+        color: red;
+    }
+
+    hr {
+      width: 1px;
+      height: 20px;
+      margin: 0 2px;
+      background-color: $secondary-color;
+    }
+  }
+
+
+  .plusIcon {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #3C1642;
+    width: 30px;
+    height: 30px;
+
+    svg{
+      color: white;
+      padding: 2px;
+    }
+  }
+
+
+}

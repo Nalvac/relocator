@@ -1,0 +1,123 @@
+$shadow-padding-top: 90px;
+$shadow-box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+
+$primary-color: #3C1642;
+$secondary-color: #1DD3B0;
+$white-color: #ffff;
+
+$item-selected-background: rgb(29,211,176);
+$item-selected-background-gradient: radial-gradient(circle, rgba(255,255,255,1) 100%, rgba(29,211,176,1) 50%);
+
+$item-selected-border-radius: 2px;
+
+$item-note-selected-background: white;
+$item-note-selected-border-radius: 2px;
+$item-selected-background-color: rgb(29, 211, 176);
+$icon-selected-color: white;
+$icon-not-selected-color: #086375;
+$icon-font-size: 18px;
+
+
+.sideMenuContainer {
+
+  box-shadow: $shadow-box-shadow;
+
+
+  .itemSelected {
+    background: linear-gradient(to left, $white-color -50%, #086375 100%);
+    border-radius: $item-selected-border-radius;
+
+    cursor: pointer;
+
+    svg {
+      color: white;
+      font-size: $icon-font-size;
+    }
+  }
+
+  .itemNoteSelected {
+    color: #3C1642;
+
+    cursor: pointer;
+
+    i {
+      color: $icon-selected-color;
+      font-size: $icon-font-size;
+    }
+
+    svg {
+      color: #086375;
+      font-size: $icon-font-size;
+    }
+
+  }
+
+  .primaryColor {
+    color: #3C1642;
+  }
+
+  .secondaryColor {
+    color: #1DD3B0;
+  }
+
+  .iconItemSelected {
+    color: white;
+    font-size: 18px;
+  }
+
+  .iconNotItemSelected {
+    color: #086375;
+    font-size: 18px;
+  }
+
+}
+
+.shadow {
+  padding-top: $shadow-padding-top;
+  box-shadow: $shadow-box-shadow;
+}
+
+.item-selected {
+  p {
+    color: red;
+  }
+  background-color: $item-selected-background;
+  background-image: $item-selected-background-gradient;
+  border-radius: $item-selected-border-radius;
+  cursor: pointer;
+
+  svg {
+    color: $icon-selected-color;
+    font-size: $icon-font-size;
+  }
+}
+
+.item-note-selected {
+  color: $primary-color;
+  background-color: $item-note-selected-background;
+  border-radius: $item-note-selected-border-radius;
+  cursor: pointer;
+
+  svg {
+    color: $icon-not-selected-color;
+    font-size: $icon-font-size;
+  }
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+.iconSelected {
+  color: $icon-selected-color;
+  font-size: $icon-font-size;
+}
+
+.icon-not-selected {
+  color: $icon-not-selected-color;
+  font-size: $icon-font-size;
+}
